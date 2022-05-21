@@ -5,14 +5,12 @@
 - Local Notification 
 
 ## 구현 화면
+![화면_기록_2022-05-21_오후_10_38_43_AdobeCreativeCloudExpress](https://user-images.githubusercontent.com/93962252/169655454-989be715-1e75-48f1-9bbf-aa49f24f6651.gif)
 
 
-https://user-images.githubusercontent.com/93962252/169655066-3b2ff92f-5ccd-43b4-8238-85a48a2c2339.mov
-
-
-
-https://user-images.githubusercontent.com/93962252/169655070-dd8123aa-8a33-40fd-8851-436123b98a42.mov
+![화면_기록_2022-05-21_오후_10_42_37_AdobeCreativeCloudExpress](https://user-images.githubusercontent.com/93962252/169655457-845b79d9-db8a-4caa-928a-9241398698d5.gif)
 
 
 
+알람 삭제하기
 <img src="https://user-images.githubusercontent.com/93962252/169654934-4fcf485d-5586-4cc0-9815-6eebf2a443df.png" width="30%" height="30%"/>
