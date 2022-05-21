@@ -9,21 +9,31 @@
 /* Begin PBXBuildFile section */
 		7C220B6A28367DB70060318C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C220B6928367DB70060318C /* AppDelegate.swift */; };
 		7C220B6C28367DB70060318C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C220B6B28367DB70060318C /* SceneDelegate.swift */; };
-		7C220B6E28367DB70060318C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C220B6D28367DB70060318C /* ViewController.swift */; };
 		7C220B7128367DB70060318C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7C220B6F28367DB70060318C /* Main.storyboard */; };
 		7C220B7328367DB80060318C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7C220B7228367DB80060318C /* Assets.xcassets */; };
 		7C220B7628367DB80060318C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7C220B7428367DB80060318C /* LaunchScreen.storyboard */; };
+		7C220B7E28367DEF0060318C /* AlertListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C220B7D28367DEF0060318C /* AlertListViewController.swift */; };
+		7C39C7A12838E10200198FFF /* UNNotificationCenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C39C7A02838E10200198FFF /* UNNotificationCenter.swift */; };
+		7C8CFDE5283682EE002B5327 /* AlertListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C8CFDE3283682EE002B5327 /* AlertListCell.swift */; };
+		7C8CFDE6283682EE002B5327 /* AlertListCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7C8CFDE4283682EE002B5327 /* AlertListCell.xib */; };
+		7C8CFDE82836873E002B5327 /* Alert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C8CFDE72836873E002B5327 /* Alert.swift */; };
+		7C8CFDEA2838B017002B5327 /* AddAlertViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C8CFDE92838B017002B5327 /* AddAlertViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		7C220B6628367DB70060318C /* YouNeedWater.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YouNeedWater.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7C220B6928367DB70060318C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7C220B6B28367DB70060318C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		7C220B6D28367DB70060318C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		7C220B7028367DB70060318C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		7C220B7228367DB80060318C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7C220B7528367DB80060318C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7C220B7728367DB80060318C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7C220B7D28367DEF0060318C /* AlertListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertListViewController.swift; sourceTree = "<group>"; };
+		7C39C7A02838E10200198FFF /* UNNotificationCenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UNNotificationCenter.swift; sourceTree = "<group>"; };
+		7C8CFDE3283682EE002B5327 /* AlertListCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertListCell.swift; sourceTree = "<group>"; };
+		7C8CFDE4283682EE002B5327 /* AlertListCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AlertListCell.xib; sourceTree = "<group>"; };
+		7C8CFDE72836873E002B5327 /* Alert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Alert.swift; sourceTree = "<group>"; };
+		7C8CFDE92838B017002B5327 /* AddAlertViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddAlertViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,10 +66,15 @@
 		7C220B6828367DB70060318C /* YouNeedWater */ = {
 			isa = PBXGroup;
 			children = (
+				7C39C7A02838E10200198FFF /* UNNotificationCenter.swift */,
+				7C8CFDE4283682EE002B5327 /* AlertListCell.xib */,
+				7C8CFDE72836873E002B5327 /* Alert.swift */,
+				7C8CFDE3283682EE002B5327 /* AlertListCell.swift */,
+				7C220B7D28367DEF0060318C /* AlertListViewController.swift */,
 				7C220B6928367DB70060318C /* AppDelegate.swift */,
 				7C220B6B28367DB70060318C /* SceneDelegate.swift */,
-				7C220B6D28367DB70060318C /* ViewController.swift */,
 				7C220B6F28367DB70060318C /* Main.storyboard */,
+				7C8CFDE92838B017002B5327 /* AddAlertViewController.swift */,
 				7C220B7228367DB80060318C /* Assets.xcassets */,
 				7C220B7428367DB80060318C /* LaunchScreen.storyboard */,
 				7C220B7728367DB80060318C /* Info.plist */,
@@ -127,6 +142,7 @@
 			files = (
 				7C220B7628367DB80060318C /* LaunchScreen.storyboard in Resources */,
 				7C220B7328367DB80060318C /* Assets.xcassets in Resources */,
+				7C8CFDE6283682EE002B5327 /* AlertListCell.xib in Resources */,
 				7C220B7128367DB70060318C /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -138,9 +154,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7C220B6E28367DB70060318C /* ViewController.swift in Sources */,
 				7C220B6A28367DB70060318C /* AppDelegate.swift in Sources */,
 				7C220B6C28367DB70060318C /* SceneDelegate.swift in Sources */,
+				7C8CFDE5283682EE002B5327 /* AlertListCell.swift in Sources */,
+				7C8CFDE82836873E002B5327 /* Alert.swift in Sources */,
+				7C220B7E28367DEF0060318C /* AlertListViewController.swift in Sources */,
+				7C39C7A12838E10200198FFF /* UNNotificationCenter.swift in Sources */,
+				7C8CFDEA2838B017002B5327 /* AddAlertViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
