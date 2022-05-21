@@ -6,5 +6,5 @@
 
 ## 구현 화면
 
-![1](https://user-images.githubusercontent.com/93962252/169654767-bb534c1f-1c55-48a5-a556-4c6ed7022f74.png)
+<img src="https://user-images.githubusercontent.com/93962252/169654767-bb534c1f-1c55-48a5-a556-4c6ed7022f74.png" width="50" height="50"/>
 
