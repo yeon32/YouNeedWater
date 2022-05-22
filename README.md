@@ -10,6 +10,8 @@
 - UNNotificationRequest
 
 
+## 사용한 기술
+iOS Platform (macOS- Xcode), Swift, UIKit
 
 
 ## 구현 화면
