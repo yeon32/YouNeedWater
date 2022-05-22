@@ -2,7 +2,11 @@
 
 수분 부족한 사람들을 위한 물 마시기 알람앱 "YouNeedWater"
 
+## 공부 
+
 - Local Notification 
+- UNNotificationRequest
+
 
 ## 구현 화면
 
