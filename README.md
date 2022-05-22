@@ -4,7 +4,7 @@
 
 
 
-## 공부 
+## 공부한 내용
 
 - Local Notification 
 - UNNotificationRequest
